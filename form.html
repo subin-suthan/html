@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action=" " method="get" name="myform">
+      <table border="1" cellpadding="5" cellspacing="5">
+      <tr>    
+      <th>Enter name</th>
+      <td><input type="text" name="username" id="uname"/></td>
+      </tr>
+
+      <tr>
+      <th>Enter Password:-</th>
+      <td><input type="password" name="username" id="pname"/></td>
+      </tr>
+
+      <tr>
+      <th>Enter Gender:-</th>
+      <td><input type="radio" name="r1" value="Male"/>Male<br/>
+         <input type="radio" name="r1" value="Female"/>Female</td>
+      </tr>
+
+      <tr>
+     <th>Hobbies</th>
+      <td><input type="checkbox" name="hobby" value="0">Sports<br/>
+           <input type="checkbox" name="hobby" value="1">Music<br/>
+           <input type="checkbox" name="hobby" value="2">Dance<br/>
+           <input type="checkbox" name="hobby" value="3">Drawing</td>
+      </tr>
+
+    <tr>
+    <th>Select Language</th>
+	<td><select name="lang" id="lang" multiple size="3">
+		<option value="select">--select--</option>
+		<option value="Java">Java</option>
+		<option value="Hibernate">Hibernate</option>
+		<option value="HTML">HTML</option>
+		<option value="Spring">Spring</option>
+    </select>
+    </td>
+    </tr>
+    
+    <tr>
+    <th> Enter text</th>
+    <td><textarea rows="10" cols="10"></textarea></td>
+    </tr>
+	</table>
+	<input type="submit" value="Register"/><br/>
+	<input type="Reset" value="Clear"/><br/>
+	</form>
+	<button>Add</button>
+      
+    </form>
+
+
+
+    <br/>
+
+<dl>
+    <dt>Chapter 1</dt>
+    <dd>Overview</dd>
+    <dd>Arch</dd>
+    <dd>Adv</dd>
+    
+    <dt>Chapter 2</dt>
+    <dd>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt vel nobis esse fuga sed cumque incidunt totam mollitia, quasi, iusto sapiente eligendi neque sequi cum? Doloremque quibusdam corrupti sequi autem!</p>
+    </dd>   
+    </dd>benefits</dd>
+
+</dl>
+
+<br/>
+
+<h2>Datalist</h2>
+Choose city:<input list="city" name="mcity"/>
+<datalist id="city">
+    <option value="coorg"/>
+    <option value="Trivandrum"/>
+    <option value="Banglore"/>
+    <option value="kochi"/>
+</datalist>  
+    <h2> Select</h2>
+    <select name="city">
+        <option value="kochi"/>kochi
+        <option value="mumbai"/>mumbai
+        <option value="kolkata"/>kolkata
+        
+    </select>
+    
+<br/><br/>
+    <form>
+        <input type="number" name="num1">
+        <input type="number" name="num2">
+        <input type="button" value="Add" onClick="result.value=parseInt(num1.value)+parseInt(num2.value)">
+        <output name="result"></output>
+    </form>
+
+    <br/>
+
+
+	<form action="basic.html">
+		Age: <input type="number" name="age" /><br />
+		Phone<input type="tel" name="phone"><br>
+		Date<input type="date"  name="date" ><br> 
+		Month<input type="month" name="month" ><br>
+		Min Range <input type="range" name="num1" 
+		          onchange="n1.value=parseInt(num1.value)" /> 
+    	<output name="n1"  ></output><br>
+    	Max Range <input type="range" name="num2"  onchange="n2.value=parseInt(num2.value)"/> 
+    	<output name="n2"  ></output><br>
+    	
+		Date-Time<input type="datetime-local" name="datetime"><br>
+		Email<input type="email" name="email"><br>
+		Color<input type="color" name="color"><br>
+		<input type="Submit" value="Add User">
+	
+		<input type="button" value="Show Range" 
+		onClick = "result.value = parseInt(num1.value)+parseInt(num2.value)">
+    	<output name="result"  ></output>
+	</form>
+</body>
+</html>

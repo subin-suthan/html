@@ -1,0 +1,26 @@
+.blog{
+    color:red;
+    
+    letter-spacing: 5px;
+  }
+  
+  .main{
+      font-family:Arial, Helvetica, sans-serif;
+           
+  }
+
+  h2.main{
+      @extend .blog;
+      background-color: purple;
+  }
+
+  p.main{
+      @extend .blog;
+      background-color: blue;
+  }
+  {
+      @extend .blog ;
+      @extend h1 ;
+      background-color: rebeccapurple;
+      
+  }
